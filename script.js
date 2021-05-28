@@ -49,20 +49,20 @@ function showRating(e) {
 
         }
 
-        if(type === "mouseover"){
-          if(ind < starValue){
-            elem.classList.add("yellow");
+        // if(type === "mouseover"){
+        //   if(ind < starValue){
+        //     elem.classList.add("yellow");
  
-          }else{
-             elem.classList.remove("yellow");
-          }
+        //   }else{
+        //      elem.classList.remove("yellow");
+        //   }
  
-         }
+        //  }
 
-         if(type === "mouseout"){
-          elem.classList.remove("yellow");
+        //  if(type === "mouseout"){
+        //   elem.classList.remove("yellow");
  
-         }
+        //  }
 
         
    })
